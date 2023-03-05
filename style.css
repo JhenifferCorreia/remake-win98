@@ -1,0 +1,184 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background-color: #008080;
+    user-select: none;
+}
+
+.iconsDesktop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    gap: 25px;
+    width: 5%;
+    margin: 0.5rem;
+    cursor: pointer;
+    z-index: 0;
+}
+
+.appDesktop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+
+
+.iconText {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.taskBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #c0c0c0;
+}
+
+.start {
+    width: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #c0c0c0;
+    font-weight: 800;
+    gap: 0.1rem;
+    cursor: pointer;
+}
+
+.start:active {
+    border-top: 3px solid #6b6b6b;
+    border-left: 3px solid #6b6b6b;
+    border-bottom: 3px solid #D9D9D9;
+    border-right: 3px solid #D9D9D9;
+}
+
+/* no button start onclick trocar a classe .bordersBox pela .bordersBox1 */
+
+.soundImg {
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+}
+
+.clock {
+    display: flex;
+    justify-content: center;
+    padding: 0.3rem;
+    border: 2px solid #D9D9D9;
+    font-size: 14px;
+    gap: 0.5rem;
+    cursor: pointer;
+}
+
+.taskMenu {
+    width: 300px;
+    height: 590px;
+    background-color: #c0c0c0;
+    position: absolute;
+    left: 10px;
+    top: 335px;
+    z-index: 60;
+    flex-direction: row-reverse;
+}
+
+.appMenu {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    padding: 0.22rem;
+}
+
+.appMenu:hover {
+    color: #FFFFFF;
+    background-color: #010080;
+}
+
+.menuImg {
+    height: 48px;
+    width: 48px;
+}
+
+.menuText {
+    width: 150px;
+}
+
+.menuText::first-letter {
+    text-decoration-line: underline;
+}
+
+.textArrow {
+    display: flex;
+    gap: 20px;
+}
+
+.iconsMenu {
+    width: 85%;
+}
+
+.lineDivider {
+    margin: 0.5rem;
+}
+
+.win98 {
+    width: 15%;
+    height: 100%;
+    background-color: #010080;
+    border-bottom: 0px;
+}
+
+.win98Text {
+    font-size: 28px;
+    color: #FFFFFF;
+    transform: rotate(-90deg);
+    position: relative;
+    left: auto;
+    top: 540px;
+}
+
+.myInformation {
+    background-color: #c0c0c0;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: 60;
+    width: 200px;
+    padding: 0.1rem;
+    line-height: 22px;
+    text-align: center;
+}
+
+a {
+    color: #010080;
+}
+
+
+.bordersBox {
+    border-top: 3px solid #D9D9D9;
+    border-left: 3px solid #D9D9D9;
+    border-bottom: 3px solid #6b6b6b;
+    border-right: 3px solid #6b6b6b;
+}
+
+.bordersBox2 {
+    border-top: 3px solid #6b6b6b;
+    border-left: 3px solid #6b6b6b;
+    border-bottom: 3px solid #D9D9D9;
+    border-right: 3px solid #D9D9D9;
+}
